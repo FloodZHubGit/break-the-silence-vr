@@ -16,6 +16,8 @@ function App() {
         <XR>
           <color attach="background" args={["#f7dcad"]} />
           <Experience />
+          <Controllers />
+          <Hands />
         </XR>
       </Canvas>
       <Loader />
