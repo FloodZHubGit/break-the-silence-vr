@@ -12,12 +12,11 @@ export const Experience = () => {
 
   return (
     <>
-      {/* <OrbitControls makeDefault enablePan={false} /> */}
-      <Stage environment="apartment" intensity={0.2} contactShadowOpacity={1}>
-        <group ref={office} position={[0, 0, 0]}>
-          <Office />
-        </group>
-      </Stage>
+      <OrbitControls />
+      <ambientLight intensity={1} />
+      <group ref={office} position={[5, -0.9, -5]}>
+        <Office />
+      </group>
       <John />
       <Emma />
       <Phone />

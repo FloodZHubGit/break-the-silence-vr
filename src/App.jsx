@@ -14,8 +14,6 @@ function App() {
       <VRButton />
       <Canvas shadows camera={{ position: [10, 5, 10], fov: 30 }}>
         <XR>
-          <Controllers />
-          <Hands />
           <color attach="background" args={["#f7dcad"]} />
           <Experience />
         </XR>
