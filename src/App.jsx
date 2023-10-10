@@ -21,7 +21,6 @@ function App() {
         </XR>
       </Canvas>
       <Loader />
-      <Interface />
       <PhoneInterface />
       <ConversationJohn />
       <ConversationEmma />

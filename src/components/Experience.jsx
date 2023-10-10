@@ -7,6 +7,7 @@ import "../index.css";
 import { useRef } from "react";
 import Phone from "./phone/Phone";
 import { RayGrab, TeleportationPlane } from "@react-three/xr";
+import Interface from "./Interface";
 
 export const Experience = () => {
   const office = useRef();
@@ -18,7 +19,6 @@ export const Experience = () => {
       <group ref={office} position={[5, 0, -5]}>
         <Office />
       </group>
-      <TeleportationPlane scale={10} />
       <RayGrab>
         <John />
       </RayGrab>
@@ -35,6 +35,8 @@ export const Experience = () => {
       >
         <video src="FirstAidFail-TheOfficeUS.mp4" autoPlay muted loop />
       </Html>
+
+      <Interface />
     </>
   );
 };

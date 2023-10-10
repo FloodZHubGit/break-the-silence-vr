@@ -4,7 +4,7 @@ import { subscribeWithSelector } from "zustand/middleware";
 export default create(
   subscribeWithSelector((set) => {
     return {
-      currentQuest: "Parler à John",
+      currentQuest: "Parler a John",
 
       personHelped: 0,
       totalPersonToHelp: 5,
