@@ -6,6 +6,7 @@ import Emma from "./emma/Emma";
 import "../index.css";
 import { useRef } from "react";
 import Phone from "./phone/Phone";
+import { RayGrab, TeleportationPlane } from "@react-three/xr";
 
 export const Experience = () => {
   const office = useRef();
@@ -17,7 +18,10 @@ export const Experience = () => {
       <group ref={office} position={[5, 0, -5]}>
         <Office />
       </group>
-      <John />
+      <TeleportationPlane scale={10} />
+      <RayGrab>
+        <John />
+      </RayGrab>
       <Emma />
       <Phone />
       <Html
