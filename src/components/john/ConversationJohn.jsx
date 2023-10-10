@@ -13,6 +13,7 @@ export default function ConversationJohn() {
   const closeConversation = () => {
     store.setState({ johnTextShowing: false });
     store.setState({ johnQuestActive: false });
+    store.setState({ johnQuestDone: true });
     store.setState({ emmaQuestActive: true });
     store.setState({ currentQuest: "Parler à Emma" });
   };

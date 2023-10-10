@@ -14,7 +14,7 @@ export default function ConversationEmma() {
     {
       speaker: "Emma",
       message:
-        "Salut David, il y a eu un incident récemment je ne sais pas vraiment si c’est du harcèlement ou non. Je ne sais pas quoi faire.",
+        "Salut, il y a eu un incident récemment je ne sais pas vraiment si c’est du harcèlement ou non. Je ne sais pas quoi faire.",
       options: [
         {
           text: "Je suis désolé de t’entendre dire ça. Veux-tu m’en parler je pourrais peut-être t’aider ?",
@@ -46,26 +46,7 @@ export default function ConversationEmma() {
     {
       speaker: "Emma",
       message:
-        "Oui, j'ai conservé les messages. Mais je ne sais pas à qui en parler.",
-      options: [
-        {
-          text: "Tu devrais en parler à Sylvie, ton amie de bureau.",
-          correct: false,
-        },
-        {
-          text: "Tu devrais immédiatement signaler ces messages au service des ressources humaines ou à un supérieur hiérarchique.",
-          correct: true,
-        },
-        {
-          text: "Tu devrais en parler à [personne ne pouvant pas répondre de manière convenable à la situation]",
-          correct: false,
-        },
-      ],
-    },
-    {
-      speaker: "Emma",
-      message:
-        "Tu as raison, je vais en parler à mon supérieur hiérarchique, merci pour ton aide",
+        "Oui, j'ai conservé les messages. Mais je ne sais pas où est mon téléphone. Tu peux le chercher pour moi s’il te plait ? Il doit se trouver sur le bureau à côté de l'entrée.",
     },
   ];
 
@@ -95,9 +76,10 @@ export default function ConversationEmma() {
   };
 
   const closeConversation = () => {
+    store.setState({ currentQuest: "Retrouver le téléphone d'Emma" });
     store.setState({ emmaTextShowing: false });
     store.setState({ emmaQuestActive: false });
-    store.setState({ personHelped: 1 });
+    store.setState({ emmaQuestDone: true });
   };
 
   return (
