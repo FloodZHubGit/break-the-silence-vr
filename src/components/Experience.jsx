@@ -5,8 +5,7 @@ import John from "./john/John";
 import Emma from "./emma/Emma";
 import "../index.css";
 import { useRef } from "react";
-import { PhoneModel } from "./models/PhoneModel";
-import Phone from "./phone/phone";
+import Phone from "./phone/Phone";
 
 export const Experience = () => {
   const office = useRef();
