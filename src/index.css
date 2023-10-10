@@ -126,6 +126,14 @@ body {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
 }
 
+@media (max-width: 768px) {
+  .person-interface {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
 .person-helped p {
   margin: 0; /* Remove default margin for cleaner look */
 }
