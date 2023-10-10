@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { PhoneModel } from "../models/PhoneModel";
 import store from "../../stores/store";
+import { RayGrab } from "@react-three/xr";
 
 export default function Phone() {
   const phone = useRef();
@@ -31,7 +32,9 @@ export default function Phone() {
           }}
           onClick={handleClickPhone}
         >
-          <PhoneModel />
+          <RayGrab>
+            <PhoneModel />
+          </RayGrab>
         </group>
       )}
     </>
