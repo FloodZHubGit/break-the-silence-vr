@@ -11,7 +11,7 @@ export default function Interface() {
   const totalPersonToHelp = store((state) => state.totalPersonToHelp);
   const currentQuest = store((state) => state.currentQuest);
 
-  const [matcapTexture] = useMatcapTexture("E6BF3C_5A4719_977726_FCFC82", 256);
+  const [matcapTexture] = useMatcapTexture("7D7673_353230_AEA7B0_4C4444", 256);
 
   useEffect(() => {
     matcapTexture.colorSpace = THREE.SRGBColorSpace;
