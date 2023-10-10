@@ -15,47 +15,30 @@ export function Office(props) {
     <group {...props} dispose={null}>
       <group position={[0, -0.013, 0]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_4.geometry}
           material={materials.Wall_material}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_6.geometry}
           material={materials.Baseboard_material}
         />
       </group>
       <group position={[-1.168, 0.57, 5.121]}>
+        <mesh geometry={nodes.Object_10.geometry} material={materials.wood} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_10.geometry}
-          material={materials.wood}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_11.geometry}
           material={materials.Pam_desk}
         />
         <group position={[-0.548, 0.261, -0.325]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_13.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_14.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_15.geometry}
             material={materials.Monitor_01}
           />
@@ -63,21 +46,15 @@ export function Office(props) {
       </group>
       <group position={[-0.589, 0.57, 3.311]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_17.geometry}
           material={materials["Material.002"]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_19.geometry}
           material={materials["Material.002"]}
           position={[-1.137, 0, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_21.geometry}
           material={materials["Material.002"]}
           position={[-1.702, 0, 0.148]}
@@ -85,32 +62,22 @@ export function Office(props) {
       </group>
       <group position={[-9.776, 0.498, 3.264]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_23.geometry}
           material={materials.Monitor_01}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_24.geometry}
           material={materials.printer_Button_ONOFF}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_25.geometry}
           material={materials.BOOKS_3}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_26.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_28.geometry}
           material={materials.Water_bottle}
           position={[0.002, 0.766, 0.009]}
@@ -118,82 +85,52 @@ export function Office(props) {
       </group>
       <group position={[-0.728, 0.6, 3.466]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_30.geometry}
           material={materials.printer_Grey}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_31.geometry}
           material={materials.printer_Buttons_Black}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_32.geometry}
           material={materials.printer_White}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_34.geometry}
           material={materials.printer_Button_ONOFF}
           position={[0.151, 0.061, 0.067]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_36.geometry}
           material={materials.printer_Buttons_Black}
           position={[0.139, 0.061, 0.067]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_38.geometry}
           material={materials.printer_Buttons_Black}
           position={[0.129, 0.061, 0.067]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_40.geometry}
           material={materials.printer_Buttons_Black}
           position={[0.12, 0.061, 0.067]}
         />
       </group>
       <group position={[-9.982, -0.015, 4.169]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_43.geometry}
-          material={materials.wood_4}
-        />
+        <mesh geometry={nodes.Object_43.geometry} material={materials.wood_4} />
         <group position={[-0.019, 0.901, -0.358]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_45.geometry}
             material={materials["wood.002"]}
           />
+          <mesh geometry={nodes.Object_46.geometry} material={materials.wood} />
           <mesh
-            castShadow
-            receiveShadow
-            geometry={nodes.Object_46.geometry}
-            material={materials.wood}
-          />
-          <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_48.geometry}
             material={materials.Handle_material}
             position={[0.007, 0, 0.656]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_50.geometry}
             material={materials.Handle_material}
             position={[0.013, 0, 0.656]}
@@ -201,35 +138,19 @@ export function Office(props) {
         </group>
       </group>
       <group position={[-2.739, -0.016, 0.019]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_53.geometry}
-          material={materials.wood_4}
-        />
+        <mesh geometry={nodes.Object_53.geometry} material={materials.wood_4} />
         <group position={[0.358, 0.901, -0.019]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_55.geometry}
             material={materials["wood.002"]}
           />
+          <mesh geometry={nodes.Object_56.geometry} material={materials.wood} />
           <mesh
-            castShadow
-            receiveShadow
-            geometry={nodes.Object_56.geometry}
-            material={materials.wood}
-          />
-          <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_58.geometry}
             material={materials.Handle_material}
             position={[-0.656, 0, 0.007]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_60.geometry}
             material={materials.Handle_material}
             position={[-0.656, 0, 0.013]}
@@ -237,35 +158,19 @@ export function Office(props) {
         </group>
       </group>
       <group position={[-9.982, -0.015, 6.397]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_63.geometry}
-          material={materials.wood_4}
-        />
+        <mesh geometry={nodes.Object_63.geometry} material={materials.wood_4} />
         <group position={[-0.019, 0.901, -0.358]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_65.geometry}
             material={materials["wood.002"]}
           />
+          <mesh geometry={nodes.Object_66.geometry} material={materials.wood} />
           <mesh
-            castShadow
-            receiveShadow
-            geometry={nodes.Object_66.geometry}
-            material={materials.wood}
-          />
-          <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_68.geometry}
             material={materials.Handle_material}
             position={[0.007, 0, 0.656]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_70.geometry}
             material={materials.Handle_material}
             position={[0.013, 0, 0.656]}
@@ -273,29 +178,18 @@ export function Office(props) {
         </group>
       </group>
       <group position={[-4.812, -0.018, 1.559]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_72.geometry}
-          material={materials.wood_4}
-        />
+        <mesh geometry={nodes.Object_72.geometry} material={materials.wood_4} />
         <group position={[0, 0.32, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_74.geometry}
             material={materials.wood_4}
           />
           <group position={[0.965, 0, 0.458]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_76.geometry}
               material={materials.wood_4}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_78.geometry}
               material={materials.Metal}
               position={[-0.475, 0.282, 0.014]}
@@ -303,54 +197,38 @@ export function Office(props) {
           </group>
           <group position={[0.483, 0.314, 0.24]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_80.geometry}
               material={materials.wood_4}
             />
             <group position={[0.298, 0.074, -0.014]}>
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_82.geometry}
                 material={materials.printer_Grey}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_83.geometry}
                 material={materials.printer_Buttons_Black}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_84.geometry}
                 material={materials.Monitor_01}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_86.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[0.045, 0.071, -0.153]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_88.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[0.042, 0.071, -0.163]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_90.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[0.04, 0.071, -0.174]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_92.geometry}
                 material={materials.printer_Button_ONOFF}
                 position={[0.036, 0.071, -0.188]}
@@ -358,14 +236,10 @@ export function Office(props) {
             </group>
             <group position={[-0.103, 0.01, 0.093]}>
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_94.geometry}
                 material={materials.floor}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_95.geometry}
                 material={materials.Paper}
               />
@@ -374,22 +248,16 @@ export function Office(props) {
         </group>
         <group position={[0.965, 0, 0.458]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_97.geometry}
             material={materials.wood_4}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_99.geometry}
             material={materials.Metal}
             position={[-0.475, 0.282, 0.014]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_101.geometry}
           material={materials.wood_4}
           position={[0, 0.309, 0]}
@@ -397,28 +265,20 @@ export function Office(props) {
       </group>
       <group position={[-0.477, -0.018, 3.33]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_103.geometry}
           material={materials.Grey_shelfes}
         />
         <group position={[0, 0.185, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_105.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[0.457, 0, 0.303]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_107.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_109.geometry}
               material={materials.Handle_material}
               position={[-0.225, 0.167, 0.009]}
@@ -427,21 +287,15 @@ export function Office(props) {
         </group>
         <group position={[0, 0.369, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_111.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[0.457, 0, 0.303]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_113.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_115.geometry}
               material={materials.Handle_material}
               position={[-0.225, 0.167, 0.009]}
@@ -450,14 +304,10 @@ export function Office(props) {
         </group>
         <group position={[0.457, 0, 0.303]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_117.geometry}
             material={materials.Grey_shelfes}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_119.geometry}
             material={materials.Handle_material}
             position={[-0.225, 0.167, 0.009]}
@@ -466,28 +316,20 @@ export function Office(props) {
       </group>
       <group position={[-2.268, -0.018, 3.33]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_121.geometry}
           material={materials.Grey_shelfes}
         />
         <group position={[0, 0.26, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_123.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[0.936, 0, 0.254]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_125.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_127.geometry}
               material={materials.Handle_material}
               position={[-0.46, 0.229, 0.008]}
@@ -496,22 +338,16 @@ export function Office(props) {
         </group>
         <group position={[0.936, 0, 0.254]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_129.geometry}
             material={materials.Grey_shelfes}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_131.geometry}
             material={materials.Handle_material}
             position={[-0.46, 0.229, 0.008]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_133.geometry}
           material={materials.wood_4}
           position={[0, 0.252, 0]}
@@ -519,28 +355,20 @@ export function Office(props) {
       </group>
       <group position={[-0.958, -0.018, 3.33]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_135.geometry}
           material={materials.Grey_shelfes}
         />
         <group position={[0, 0.186, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_137.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[0.457, 0, 0.303]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_139.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_141.geometry}
               material={materials.Handle_material}
               position={[-0.225, 0.167, 0.009]}
@@ -549,21 +377,15 @@ export function Office(props) {
         </group>
         <group position={[0, 0.369, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_143.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[0.457, 0, 0.303]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_145.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_147.geometry}
               material={materials.Handle_material}
               position={[-0.225, 0.167, 0.009]}
@@ -572,14 +394,10 @@ export function Office(props) {
         </group>
         <group position={[0.457, 0, 0.303]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_149.geometry}
             material={materials.Grey_shelfes}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_151.geometry}
             material={materials.Handle_material}
             position={[-0.225, 0.167, 0.009]}
@@ -588,203 +406,145 @@ export function Office(props) {
       </group>
       <group position={[-9.97, 0.109, 5.813]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_153.geometry}
           material={materials.Grey_shelfes}
         />
         <group position={[0.012, 0.772, -0.053]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_155.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_156.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.524, -0.041]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_158.geometry}
             material={materials.BOOKS_2}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_159.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.261, -0.041]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_161.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_162.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.261, -0.403]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_164.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_165.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 1.052, -0.344]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_167.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_168.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 1.052, -0.586]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_170.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_171.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.522, -0.767]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_173.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_174.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.261, -0.563]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_176.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_177.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.776, -0.565]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_179.geometry}
             material={materials.BOOKS_2}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_180.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.012, 0.77, -0.404]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_182.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_183.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_185.geometry}
           material={materials.Grey_shelfes}
           position={[0, 0.505, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_187.geometry}
           material={materials.Grey_shelfes}
           position={[0, 1.298, -0.54]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_189.geometry}
           material={materials.Monitor_01}
           position={[0.112, 0.042, -0.134]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_191.geometry}
           material={materials.Monitor_01}
           position={[0.112, 0.042, -0.4]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_193.geometry}
           material={materials.Monitor_01}
           position={[0.112, 0.096, -0.4]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_195.geometry}
           material={materials.Monitor_01}
           position={[0.051, 0.282, -0.284]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_197.geometry}
           material={materials.Monitor_01}
           position={[0.086, 1.074, -0.166]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_199.geometry}
           material={materials.Monitor_01}
           position={[0.051, 0.802, -0.952]}
@@ -792,63 +552,45 @@ export function Office(props) {
       </group>
       <group position={[-9.97, 0.109, 5.269]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_201.geometry}
           material={materials.Grey_shelfes}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_203.geometry}
           material={materials.Grey_shelfes}
           position={[0, 0.505, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_205.geometry}
           material={materials.Grey_shelfes}
           position={[0, 1.298, -0.54]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_207.geometry}
           material={materials.Monitor_01}
           position={[0.112, 0.042, -0.199]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_209.geometry}
           material={materials.Monitor_01}
           position={[0.112, 0.042, -0.4]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_211.geometry}
           material={materials.Monitor_01}
           position={[0.112, 0.096, -0.273]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_213.geometry}
           material={materials.Black_plastic}
           position={[0.112, 0.551, -0.114]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_215.geometry}
           material={materials.Black_plastic}
           position={[0.112, 0.61, -0.114]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_217.geometry}
           material={materials.Black_plastic}
           position={[0.112, 0.668, -0.114]}
@@ -856,28 +598,20 @@ export function Office(props) {
       </group>
       <group position={[-9.988, -0.018, 2.969]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_219.geometry}
           material={materials.wood_4}
         />
         <group position={[0, 0.32, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_221.geometry}
             material={materials.wood_4}
           />
           <group position={[0.458, 0, -0.965]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_223.geometry}
               material={materials.wood_4}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_225.geometry}
               material={materials.Metal}
               position={[0.014, 0.282, 0.475]}
@@ -885,62 +619,44 @@ export function Office(props) {
           </group>
           <group position={[0.24, 0.314, -0.483]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_227.geometry}
               material={materials.wood_4}
             />
             <group position={[0.078, 0.074, 0.264]}>
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_231.geometry}
                 material={materials.printer_Grey}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_232.geometry}
                 material={materials.printer_Buttons_Black}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_233.geometry}
                 material={materials.Monitor_01}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_235.geometry}
                 material={materials.printer_Button_ONOFF}
                 position={[0.095, 0.071, -0.166]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_237.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[0.093, 0.071, -0.152]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_239.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[0.092, 0.071, -0.141]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_241.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[0.091, 0.071, -0.131]}
               />
             </group>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_229.geometry}
               material={materials.Pam_desk}
               position={[0.125, 0.057, -0.048]}
@@ -949,22 +665,16 @@ export function Office(props) {
         </group>
         <group position={[0.458, 0, -0.965]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_243.geometry}
             material={materials.wood_4}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_245.geometry}
             material={materials.Metal}
             position={[0.014, 0.282, 0.475]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_247.geometry}
           material={materials.wood_4}
           position={[0, 0.309, 0]}
@@ -972,28 +682,20 @@ export function Office(props) {
       </group>
       <group position={[-1.11, -0.018, 0.004]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_249.geometry}
           material={materials.Grey_shelfes}
         />
         <group position={[0, 0.368, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_251.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[1.073, 0, 0.355]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_253.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_255.geometry}
               material={materials.Handle_material}
               position={[-0.528, 0.336, 0.011]}
@@ -1002,21 +704,15 @@ export function Office(props) {
         </group>
         <group position={[0, 0.737, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_257.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[1.073, 0, 0.355]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_259.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_261.geometry}
               material={materials.Handle_material}
               position={[-0.528, 0.336, 0.011]}
@@ -1025,28 +721,20 @@ export function Office(props) {
         </group>
         <group position={[0, 1.104, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_263.geometry}
             material={materials.Grey_shelfes}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_265.geometry}
             material={materials.Black_plastic}
             position={[0.588, 0.394, 0.078]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_267.geometry}
             material={materials.Black_plastic}
             position={[0.588, 0.453, 0.078]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_269.geometry}
             material={materials.Black_plastic}
             position={[0.588, 0.511, 0.078]}
@@ -1054,29 +742,21 @@ export function Office(props) {
         </group>
         <group position={[1.073, 0, 0.355]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_271.geometry}
             material={materials.Grey_shelfes}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_273.geometry}
             material={materials.Handle_material}
             position={[-0.528, 0.336, 0.011]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_275.geometry}
           material={materials.Grey_shelfes}
           position={[1.073, 1.104, 0.355]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_277.geometry}
           material={materials.Handle_material}
           position={[0.545, 1.44, 0.366]}
@@ -1084,28 +764,20 @@ export function Office(props) {
       </group>
       <group position={[-2.233, -0.018, 0.004]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_279.geometry}
           material={materials.Grey_shelfes}
         />
         <group position={[0, 0.368, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_281.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[1.073, 0, 0.355]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_283.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_285.geometry}
               material={materials.Handle_material}
               position={[-0.528, 0.336, 0.011]}
@@ -1114,21 +786,15 @@ export function Office(props) {
         </group>
         <group position={[0, 0.737, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_287.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[1.073, 0, 0.355]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_289.geometry}
               material={materials.Grey_shelfes}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_291.geometry}
               material={materials.Handle_material}
               position={[-0.528, 0.336, 0.011]}
@@ -1137,56 +803,40 @@ export function Office(props) {
         </group>
         <group position={[0, 1.104, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_293.geometry}
             material={materials.Grey_shelfes}
           />
           <group position={[0.592, 0.366, -0.025]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_295.geometry}
               material={materials.Monitor_01_Decals}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_296.geometry}
               material={materials.Monitor_01}
             />
           </group>
           <group position={[0.592, 0.424, 0.043]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_298.geometry}
               material={materials.BOOKS_2}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_299.geometry}
               material={materials.Monitor_01}
             />
           </group>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_301.geometry}
             material={materials.Monitor_01}
             position={[0.943, 0.395, 0.077]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_303.geometry}
             material={materials.Monitor_01}
             position={[0.725, 0.395, 0.077]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_305.geometry}
             material={materials.Monitor_01}
             position={[0.863, 0.453, 0.077]}
@@ -1194,29 +844,21 @@ export function Office(props) {
         </group>
         <group position={[1.073, 0, 0.355]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_307.geometry}
             material={materials.Grey_shelfes}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_309.geometry}
             material={materials.Handle_material}
             position={[-0.528, 0.336, 0.011]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_311.geometry}
           material={materials.Grey_shelfes}
           position={[1.073, 1.104, 0.355]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_313.geometry}
           material={materials.Handle_material}
           position={[0.545, 1.44, 0.366]}
@@ -1224,77 +866,55 @@ export function Office(props) {
       </group>
       <group position={[-1.994, 0.553, 3.475]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_315.geometry}
           material={materials.Monitor_01}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_317.geometry}
           material={materials.Monitor_01}
           position={[-0.001, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_319.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_321.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_323.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_325.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_327.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_329.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_331.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_333.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_335.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
@@ -1302,169 +922,115 @@ export function Office(props) {
       </group>
       <group position={[-4.309, 0.685, 1.653]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_337.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_339.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_341.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_343.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_345.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_347.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_349.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_351.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_353.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_355.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_357.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
       </group>
       <group position={[-1.483, 0.498, 4.726]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_359.geometry}
-          material={materials.floor}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_360.geometry}
-          material={materials.Paper}
-        />
+        <mesh geometry={nodes.Object_359.geometry} material={materials.floor} />
+        <mesh geometry={nodes.Object_360.geometry} material={materials.Paper} />
       </group>
       <group position={[-1.994, 0.621, 3.475]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_362.geometry}
           material={materials.Monitor_01}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_364.geometry}
           material={materials.Monitor_01}
           position={[-0.001, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_366.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_368.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_370.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_372.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_374.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_376.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_378.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_380.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_382.geometry}
           material={materials.Monitor_01}
           position={[0, -0.037, 0.001]}
@@ -1472,75 +1038,50 @@ export function Office(props) {
       </group>
       <group position={[-0.349, -0.018, 6.771]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_384.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_385.geometry}
           material={materials["wood.004"]}
         />
       </group>
       <group position={[-1.941, 0, 6.584]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_387.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_388.geometry}
           material={materials["wood.004"]}
         />
       </group>
       <group position={[-9.993, 1.147, 2.515]}>
+        <mesh geometry={nodes.Object_390.geometry} material={materials.wood} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_390.geometry}
-          material={materials.wood}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_391.geometry}
           material={materials.Poster_office_2}
         />
       </group>
       <group position={[-9.983, 1.562, 2.534]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_393.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_394.geometry}
           material={materials.printer_Buttons_Black}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_395.geometry}
           material={materials.Monitor_01}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_397.geometry}
           material={materials.printer_Buttons_Black}
           position={[0.017, 0.068, 0.026]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_399.geometry}
           material={materials.printer_Buttons_Black}
           position={[0.017, -0.039, -0.047]}
@@ -1548,33 +1089,23 @@ export function Office(props) {
       </group>
       <group position={[-4.343, 1.562, 0.009]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_401.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_402.geometry}
           material={materials.printer_Buttons_Black}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_403.geometry}
           material={materials.Monitor_01}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_405.geometry}
           material={materials.printer_Buttons_Black}
           position={[-0.023, 0.069, 0.017]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_407.geometry}
           material={materials.printer_Buttons_Black}
           position={[0.045, -0.042, 0.017]}
@@ -1582,35 +1113,22 @@ export function Office(props) {
       </group>
       <group position={[-2.078, 1.439, 6.938]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_409.geometry}
           material={materials.wood_4}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_410.geometry}
           material={materials.Poster_Pam}
         />
       </group>
       <group position={[-4.625, 0.413, 3.611]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_412.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_412.geometry} material={materials.wood} />
         <group position={[-0.086, -0.088, 0.512]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_414.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_416.geometry}
             material={materials.Metal}
             position={[-0.327, 0.089, 0.027]}
@@ -1618,20 +1136,14 @@ export function Office(props) {
         </group>
         <group position={[-0.259, 0.292, -0.056]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_418.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_419.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_421.geometry}
             material={materials.Monitor_01}
             position={[0.025, 0.008, 0]}
@@ -1639,171 +1151,121 @@ export function Office(props) {
         </group>
         <group position={[-0.034, 0.283, 0.127]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_423.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_424.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_425.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.215, 0.287, -0.381]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_427.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_428.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.005, 0.535, -0.272]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_430.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_431.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_432.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_433.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.67, -0.109, -0.242]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_435.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_436.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_437.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_438.geometry}
             material={materials.Pam_desk}
           />
         </group>
         <group position={[-0.109, 0.34, 0.673]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_440.geometry}
             material={materials.Monitor_01_Decals}
           />
           <group position={[0, -0.037, 0.001]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_460.geometry}
               material={materials.Monitor_01_Decals}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_462.geometry}
               material={materials.Paper}
               position={[-0.125, 0.013, 0.056]}
             />
           </group>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_442.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_444.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_446.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_448.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_450.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_452.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_454.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_456.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_458.geometry}
             material={materials.Monitor_01_Decals}
             position={[0, -0.037, 0.001]}
@@ -1811,22 +1273,13 @@ export function Office(props) {
         </group>
       </group>
       <group position={[-4.268, 0.413, 4.636]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_464.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_464.geometry} material={materials.wood} />
         <group position={[0.512, -0.088, 0.086]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_466.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_468.geometry}
             material={materials.Metal}
             position={[0.027, 0.089, 0.327]}
@@ -1834,20 +1287,14 @@ export function Office(props) {
         </group>
         <group position={[0.057, 0.292, 0.25]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_470.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_471.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_473.geometry}
             material={materials.Monitor_01}
             position={[-0.008, 0.008, -0.024]}
@@ -1855,122 +1302,83 @@ export function Office(props) {
         </group>
         <group position={[-0.63, 0.283, -0.039]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_475.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_476.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_477.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.287, 0.287, 0.201]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_479.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_480.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.256, 0.535, -0.041]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_482.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_483.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_484.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_485.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[0.162, -0.109, 0.764]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_487.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_488.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_489.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_490.geometry}
             material={materials.Pam_desk}
           />
         </group>
         <group position={[0.372, 0.293, 0.193]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_492.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_493.geometry}
             material={materials.Paper}
           />
         </group>
       </group>
       <group position={[-7.28, 0.413, 4.636]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_495.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_495.geometry} material={materials.wood} />
         <group position={[0.512, -0.088, 0.086]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_497.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_499.geometry}
             material={materials.Metal}
             position={[0.027, 0.089, 0.327]}
@@ -1978,20 +1386,14 @@ export function Office(props) {
         </group>
         <group position={[-0.005, 0.292, 0.204]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_501.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_502.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_504.geometry}
             material={materials.Monitor_01}
             position={[0.01, 0.008, -0.023]}
@@ -1999,108 +1401,73 @@ export function Office(props) {
         </group>
         <group position={[-0.629, 0.283, -0.039]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_506.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_507.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_508.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.323, 0.287, 0.239]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_510.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_511.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.293, 0.535, 0.021]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_513.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_514.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_515.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_516.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.171, -0.109, 0.424]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_518.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_519.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_520.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_521.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-7.533, 0.413, 3.611]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_523.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_523.geometry} material={materials.wood} />
         <group position={[-0.086, -0.088, 0.512]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_525.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_527.geometry}
             material={materials.Metal}
             position={[-0.327, 0.089, 0.027]}
@@ -2108,20 +1475,14 @@ export function Office(props) {
         </group>
         <group position={[-0.308, 0.292, 0.029]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_529.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_530.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_532.geometry}
             material={materials.Monitor_01}
             position={[0.025, 0.008, 0]}
@@ -2129,108 +1490,73 @@ export function Office(props) {
         </group>
         <group position={[-0.01, 0.283, 0.003]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_534.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_535.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_536.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.311, 0.287, -0.284]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_538.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_539.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.034, 0.535, -0.328]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_541.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_542.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_543.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_544.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.643, -0.109, -0.182]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_546.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_547.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_548.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_549.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-7.03, 0.413, 3.611]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_551.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_551.geometry} material={materials.wood} />
         <group position={[0.086, -0.088, -0.512]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_553.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_555.geometry}
             material={materials.Metal}
             position={[0.327, 0.089, -0.027]}
@@ -2238,20 +1564,14 @@ export function Office(props) {
         </group>
         <group position={[0.26, 0.292, 0.031]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_557.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_558.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_560.geometry}
             material={materials.Monitor_01}
             position={[-0.025, 0.008, 0]}
@@ -2259,108 +1579,73 @@ export function Office(props) {
         </group>
         <group position={[0.016, 0.283, 0.042]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_562.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_563.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_564.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.201, 0.287, 0.287]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_566.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_567.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.041, 0.535, 0.256]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_569.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_570.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_571.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_572.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[0.599, -0.109, 0.327]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_574.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_575.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_576.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_577.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-4.584, 0.413, 0.786]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_579.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_579.geometry} material={materials.wood} />
         <group position={[-0.086, -0.088, 0.512]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_581.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_583.geometry}
             material={materials.Metal}
             position={[-0.327, 0.089, 0.027]}
@@ -2368,20 +1653,14 @@ export function Office(props) {
         </group>
         <group position={[-0.362, 0.292, -0.007]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_585.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_586.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_588.geometry}
             material={materials.Monitor_01}
             position={[0.023, 0.008, 0.01]}
@@ -2389,108 +1668,73 @@ export function Office(props) {
         </group>
         <group position={[-0.029, 0.283, 0.146]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_590.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_591.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_592.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.201, 0.287, -0.287]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_594.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_595.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.031, 0.535, -0.074]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_597.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_598.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_599.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_600.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.438, -0.109, -0.327]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_602.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_603.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_604.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_605.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-4.081, 0.413, 0.786]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_607.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_607.geometry} material={materials.wood} />
         <group position={[0.086, -0.088, -0.512]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_609.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_611.geometry}
             material={materials.Metal}
             position={[0.327, 0.089, -0.027]}
@@ -2498,20 +1742,14 @@ export function Office(props) {
         </group>
         <group position={[0.204, 0.292, 0.005]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_613.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_614.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_616.geometry}
             material={materials.Monitor_01}
             position={[-0.024, 0.008, 0.007]}
@@ -2519,108 +1757,73 @@ export function Office(props) {
         </group>
         <group position={[-0.008, 0.283, -0.078]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_618.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_619.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_620.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.201, 0.287, 0.287]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_622.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_623.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[0.028, 0.535, 0.37]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_625.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_626.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_627.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_628.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[0.438, -0.109, 0.048]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_630.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_631.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_632.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_633.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-1.856, 0.413, 1.705]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_635.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_635.geometry} material={materials.wood} />
         <group position={[-0.086, -0.088, 0.512]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_637.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_639.geometry}
             material={materials.Metal}
             position={[-0.327, 0.089, 0.027]}
@@ -2628,20 +1831,14 @@ export function Office(props) {
         </group>
         <group position={[-0.204, 0.292, -0.005]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_641.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_642.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_644.geometry}
             material={materials.Monitor_01}
             position={[0.025, 0.008, 0]}
@@ -2649,108 +1846,73 @@ export function Office(props) {
         </group>
         <group position={[0.035, 0.283, 0.158]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_646.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_647.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_648.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.201, 0.287, -0.287]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_650.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_651.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[0.041, 0.535, -0.256]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_653.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_654.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_655.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_656.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.438, -0.109, -0.327]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_658.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_659.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_660.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_661.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-0.832, 0.413, 1.451]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_663.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_663.geometry} material={materials.wood} />
         <group position={[-0.512, -0.088, -0.086]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_665.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_667.geometry}
             material={materials.Metal}
             position={[-0.027, 0.089, -0.327]}
@@ -2758,20 +1920,14 @@ export function Office(props) {
         </group>
         <group position={[-0.025, 0.292, -0.209]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_669.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_670.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_672.geometry}
             material={materials.Monitor_01}
             position={[0.012, 0.008, 0.022]}
@@ -2779,108 +1935,73 @@ export function Office(props) {
         </group>
         <group position={[-0.144, 0.283, 0.045]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_674.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_675.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_676.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.287, 0.287, -0.201]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_678.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_679.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[0.256, 0.535, 0.041]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_681.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_682.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_683.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_684.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[0.072, -0.109, -0.605]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_686.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_687.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_688.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_689.geometry}
             material={materials.Pam_desk}
           />
         </group>
       </group>
       <group position={[-0.832, 0.413, 1.955]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_691.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_691.geometry} material={materials.wood} />
         <group position={[0.512, -0.088, 0.086]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_693.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_695.geometry}
             material={materials.Metal}
             position={[0.027, 0.089, 0.327]}
@@ -2888,20 +2009,14 @@ export function Office(props) {
         </group>
         <group position={[-0.005, 0.292, 0.204]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_697.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_698.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_700.geometry}
             material={materials.Monitor_01}
             position={[0, 0.008, -0.025]}
@@ -2909,86 +2024,60 @@ export function Office(props) {
         </group>
         <group position={[0.196, 0.283, 0.034]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_702.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_703.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_704.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.287, 0.287, 0.201]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_706.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_707.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.256, 0.535, -0.041]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_709.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_710.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_711.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_712.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.327, -0.109, 0.438]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_714.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_715.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_716.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_717.geometry}
             material={materials.Pam_desk}
           />
@@ -2996,157 +2085,99 @@ export function Office(props) {
       </group>
       <group position={[-1.32, 0.739, 5.182]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_719.geometry}
           material={materials.Monitor_01}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_720.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_721.geometry}
           material={materials.Monitor_screen}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_722.geometry}
           material={materials["Monitor.002"]}
         />
       </group>
       <group position={[-0.715, 0.304, 4.847]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_724.geometry}
           material={materials.OfficeChair_Modern}
         />
+        <mesh geometry={nodes.Object_725.geometry} material={materials.Metal} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_725.geometry}
-          material={materials.Metal}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_726.geometry}
           material={materials.Black_plastic}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_727.geometry}
           material={materials.Pam_desk}
         />
       </group>
       <group position={[-7.088, 0.748, 4.837]}>
+        <mesh geometry={nodes.Object_729.geometry} material={materials.floor} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_729.geometry}
-          material={materials.floor}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_730.geometry}
           material={materials.Coffee}
         />
       </group>
       <group position={[-6.887, 0.704, 4.892]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_732.geometry}
-          material={materials.floor}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_733.geometry}
-          material={materials.Paper}
-        />
+        <mesh geometry={nodes.Object_732.geometry} material={materials.floor} />
+        <mesh geometry={nodes.Object_733.geometry} material={materials.Paper} />
       </group>
       <group position={[-1.903, 0.747, 2.248]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_735.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_737.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.001, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_739.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_741.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_743.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_745.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_747.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_749.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_751.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_753.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_755.geometry}
           material={materials.Monitor_01_Decals}
           position={[0, -0.037, 0.001]}
@@ -3154,77 +2185,55 @@ export function Office(props) {
       </group>
       <group position={[-6.914, 0.753, 2.916]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_757.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_759.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_761.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_763.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_765.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_767.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_769.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_771.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_773.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_775.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_777.geometry}
           material={materials.Monitor_01_Decals}
           position={[0.001, -0.037, 0]}
@@ -3232,202 +2241,144 @@ export function Office(props) {
       </group>
       <group position={[-2.149, 0.748, 2.007]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_781.geometry}
           material={materials.Pam_desk}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_782.geometry}
           material={materials.Coffee}
         />
       </group>
       <group position={[-7.758, -0.015, 1.743]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_787.geometry}
           material={materials.wood_4}
         />
         <group position={[0.358, 0.901, -0.02]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_789.geometry}
             material={materials["wood.002"]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_790.geometry}
             material={materials.wood}
           />
           <group position={[1.048, 1.02, -1.273]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_792.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_793.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[1.048, 0.006, -1.271]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_795.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_796.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[1.048, 1.02, -0.373]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_798.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_799.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[1.048, 0.006, -0.371]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_801.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_802.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[0.548, 1.02, 0.029]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_804.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_805.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[0.55, 0.006, 0.029]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_807.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_808.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-1.252, 1.02, 0.029]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_810.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_811.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-1.25, 0.006, 0.029]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_813.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_814.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-2.152, 1.02, 0.029]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_816.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_817.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-2.15, 0.006, 0.029]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_819.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_820.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-0.353, 1.02, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_822.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_823.geometry}
               material={materials.Glass}
             />
           </group>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_825.geometry}
             material={materials.Handle_material}
             position={[-0.656, 0, 0.007]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_827.geometry}
             material={materials.Handle_material}
             position={[-0.656, 0, 0.013]}
@@ -3435,22 +2386,13 @@ export function Office(props) {
         </group>
       </group>
       <group position={[-8.568, 0.413, 0.845]}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_829.geometry}
-          material={materials.wood}
-        />
+        <mesh geometry={nodes.Object_829.geometry} material={materials.wood} />
         <group position={[-0.516, -0.088, -0.056]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_833.geometry}
             material={materials.wood}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_835.geometry}
             material={materials.Metal}
             position={[-0.046, 0.089, -0.325]}
@@ -3458,20 +2400,14 @@ export function Office(props) {
         </group>
         <group position={[-0.007, 0.292, -0.204]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_837.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_838.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_840.geometry}
             material={materials.Monitor_01}
             position={[0.001, 0.008, 0.025]}
@@ -3479,171 +2415,121 @@ export function Office(props) {
         </group>
         <group position={[0.563, 0.283, -0.02]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_844.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_845.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_846.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.275, 0.287, -0.218]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_848.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_849.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[0.257, 0.535, 0.026]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_851.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_852.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_853.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_854.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[0.22, -0.109, -0.475]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_856.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_857.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_858.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_859.geometry}
             material={materials.Pam_desk}
           />
         </group>
         <group position={[-0.66, 0.34, -0.016]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_861.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_863.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_865.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_867.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_869.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_871.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_873.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_875.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_877.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_879.geometry}
             material={materials.Monitor_01_Decals}
             position={[0.001, -0.037, 0]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_831.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.659, 0.302, -0.017]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_842.geometry}
           material={materials.Monitor_01}
           position={[-0.605, 0.316, 0.109]}
@@ -3651,96 +2537,68 @@ export function Office(props) {
       </group>
       <group position={[-9.988, 0.864, 1.016]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_881.geometry}
           material={materials.wood_4}
         />
         <group position={[-0.005, 0.564, -0.279]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_883.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_884.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_885.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_886.geometry}
             material={materials.BOOKS_2}
           />
         </group>
         <group position={[0.001, 0.277, -0.354]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_888.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_889.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.001, 0.321, -0.356]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_891.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_892.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.089, 0.354, -0.681]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_894.geometry}
             material={materials.Baseboard_material}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_895.geometry}
             material={materials.Grey_shelfes}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_897.geometry}
           material={materials.Paper}
           position={[0.066, 0.042, -0.266]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_899.geometry}
           material={materials.Paper}
           position={[0.066, 0.042, -0.522]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_901.geometry}
           material={materials.Paper}
           position={[0.066, 0.096, -0.477]}
@@ -3748,124 +2606,88 @@ export function Office(props) {
       </group>
       <group position={[-9.838, 0.864, 0.015]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_903.geometry}
           material={materials.wood_4}
         />
         <group position={[0.03, 0.277, -0.005]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_905.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_906.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_907.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_908.geometry}
             material={materials.BOOKS_2}
           />
         </group>
         <group position={[0.402, 0.562, 0.001]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_910.geometry}
             material={materials.BOOKS_2}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_911.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.404, 0.605, 0.001]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_913.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_914.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.69, 0.592, 0.089]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_916.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_917.geometry}
             material={materials.Grey_shelfes}
           />
         </group>
         <group position={[0.69, 0.673, 0.089]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_919.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_920.geometry}
             material={materials.Grey_shelfes}
           />
         </group>
         <group position={[0.153, 0.641, 0.064]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_928.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_929.geometry}
             material={materials.Paper}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_922.geometry}
           material={materials.Paper}
           position={[0.266, 0.042, 0.066]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_924.geometry}
           material={materials.Paper}
           position={[0.522, 0.042, 0.066]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_926.geometry}
           material={materials.Paper}
           position={[0.477, 0.096, 0.066]}
@@ -3873,230 +2695,158 @@ export function Office(props) {
       </group>
       <group position={[-6.933, 0.335, 1.185]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_931.geometry}
           material={materials.OfficeChair_Modern}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_932.geometry}
           material={materials["01_-_Default"]}
         />
       </group>
       <group position={[-6.859, 0.335, 0.442]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_934.geometry}
           material={materials.OfficeChair_Modern}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_935.geometry}
           material={materials["01_-_Default"]}
         />
       </group>
       <group position={[-7.505, 1.559, 0.009]}>
+        <mesh geometry={nodes.Object_937.geometry} material={materials.wood} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_937.geometry}
-          material={materials.wood}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_938.geometry}
           material={materials.Poster_office}
         />
       </group>
       <group position={[-9.931, 1.532, 0.843]}>
+        <mesh geometry={nodes.Object_940.geometry} material={materials.wood} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_940.geometry}
-          material={materials.wood}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_941.geometry}
           material={materials.Poster_office_3}
         />
       </group>
       <group position={[-5.387, -0.013, 9.947]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_947.geometry}
           material={materials.Wall_material}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_949.geometry}
           material={materials.Baseboard_material}
         />
       </group>
       <group position={[-5.95, -0.015, 6.984]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_952.geometry}
           material={materials.wood_4}
         />
         <group position={[0.358, 0.901, -0.02]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_954.geometry}
             material={materials["wood.002"]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_955.geometry}
             material={materials.wood}
           />
           <group position={[-2.153, 1.02, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_957.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_958.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-1.253, 1.02, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_960.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_961.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-0.353, 1.02, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_963.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_964.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-1.251, 0.006, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_966.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_967.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-2.152, 0.006, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_969.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_970.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-3.953, 1.02, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_972.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_973.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-3.053, 1.02, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_975.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_976.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-3.051, 0.006, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_978.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_979.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[-3.952, 0.006, 0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_981.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_982.geometry}
               material={materials.Glass}
             />
           </group>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_984.geometry}
             material={materials.Handle_material}
             position={[-0.656, 0, 0.007]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_986.geometry}
             material={materials.Handle_material}
             position={[-0.656, 0, 0.013]}
@@ -4105,27 +2855,19 @@ export function Office(props) {
       </group>
       <group position={[-9.791, -0.02, 9.661]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_988.geometry}
           material={materials["02_-_Default"]}
         />
         <group position={[-0.004, 0.317, -0.001]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_990.geometry}
             material={materials.Fronds}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_991.geometry}
             material={materials.Stalks}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_992.geometry}
             material={materials.Flowers}
           />
@@ -4133,147 +2875,105 @@ export function Office(props) {
       </group>
       <group position={[-7.814, 0.563, 8.548]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_994.geometry}
           material={materials.wood_4}
         />
         <group position={[1.126, -0.228, -0.783]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_996.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_997.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[0.304, -0.228, -0.941]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_999.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1000.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[-0.442, -0.228, -0.965]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1002.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1003.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[-1.098, -0.228, -0.7]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1005.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1006.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[-0.974, -0.228, 0.846]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1008.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1009.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[-0.157, -0.228, 1.028]} scale={1.359}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1011.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1012.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[0.588, -0.228, 1.073]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1014.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1015.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[1.241, -0.228, 0.796]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1017.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1018.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[1.642, -0.228, 0.054]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1020.geometry}
             material={materials.OfficeChair_Modern}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1021.geometry}
             material={materials["01_-_Default"]}
           />
         </group>
         <group position={[-1.304, -0.574, -0.009]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1023.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1025.geometry}
             material={materials.Metal}
             position={[0, 0.257, 0]}
@@ -4281,14 +2981,10 @@ export function Office(props) {
         </group>
         <group position={[1.251, -0.574, -0.009]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1027.geometry}
             material={materials.Metal}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1029.geometry}
             material={materials.Metal}
             position={[0, 0.257, 0]}
@@ -4297,27 +2993,19 @@ export function Office(props) {
       </group>
       <group position={[-9.791, -0.02, 1.512]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1049.geometry}
           material={materials["02_-_Default"]}
         />
         <group position={[-0.004, 0.317, -0.001]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1051.geometry}
             material={materials.Fronds}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1052.geometry}
             material={materials.Stalks}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1053.geometry}
             material={materials.Flowers}
           />
@@ -4325,61 +3013,43 @@ export function Office(props) {
       </group>
       <group position={[-1.504, -0.013, 9.947]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1057.geometry}
           material={materials.Wall_material}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1059.geometry}
           material={materials.Baseboard_material}
         />
       </group>
       <group position={[-1.988, 0.856, 7.628]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1061.geometry}
           material={materials["wood.004"]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1062.geometry}
           material={materials.Handle_material}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1063.geometry}
           material={materials.wood_4}
         />
         <group position={[-0.06, -0.035, -0.572]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1065.geometry}
             material={materials["wood.004"]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1066.geometry}
             material={materials.Handle_material}
           />
         </group>
         <group position={[-0.055, -0.035, 0.599]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1068.geometry}
             material={materials["wood.004"]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1069.geometry}
             material={materials.Handle_material}
           />
@@ -4387,156 +3057,110 @@ export function Office(props) {
       </group>
       <group position={[-1.56, 0.583, 8.923]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1074.geometry}
           material={materials.hidden_material}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1076.geometry}
           material={materials.Black_plastic}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1077.geometry}
           material={materials.Plastic}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1078.geometry}
           material={materials.Glass}
         />
       </group>
       <group position={[-5.392, 0.785, 9.677]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1080.geometry}
           material={materials.wood_4}
         />
         <group position={[-0.005, 0.263, -0.032]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1082.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1083.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1084.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1085.geometry}
             material={materials.Pam_desk}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1086.geometry}
             material={materials.BOOKS_2}
           />
         </group>
         <group position={[0.001, 0.533, -0.424]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1088.geometry}
             material={materials.BOOKS_2}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1089.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.001, 0.574, -0.426]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1091.geometry}
             material={materials.BOOKS_3}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1092.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[0.089, 0.562, -0.727]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1094.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1095.geometry}
             material={materials.Grey_shelfes}
           />
         </group>
         <group position={[0.089, 0.639, -0.727]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1097.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1098.geometry}
             material={materials.Grey_shelfes}
           />
         </group>
         <group position={[0.064, 0.609, -0.165]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1106.geometry}
             material={materials.floor}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1107.geometry}
             material={materials.Paper}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1100.geometry}
           material={materials.Paper}
           position={[0.066, 0.04, -0.28]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1102.geometry}
           material={materials.Paper}
           position={[0.066, 0.04, -0.551]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1104.geometry}
           material={materials.Paper}
           position={[0.066, 0.091, -0.503]}
@@ -4544,28 +3168,20 @@ export function Office(props) {
       </group>
       <group position={[-1.628, -0.018, 8.403]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1109.geometry}
           material={materials.wood_4}
         />
         <group position={[0, 0.32, 0]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1111.geometry}
             material={materials.wood_4}
           />
           <group position={[-0.458, 0, 1.203]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1113.geometry}
               material={materials.wood_4}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1115.geometry}
               material={materials.Metal}
               position={[-0.014, 0.282, -0.592]}
@@ -4573,54 +3189,38 @@ export function Office(props) {
           </group>
           <group position={[-0.24, 0.314, 0.603]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1117.geometry}
               material={materials.wood_4}
             />
             <group position={[0.014, 0.074, 0.372]}>
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1119.geometry}
                 material={materials.printer_Grey}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1120.geometry}
                 material={materials.printer_Buttons_Black}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1121.geometry}
                 material={materials.Monitor_01}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1123.geometry}
                 material={materials.printer_Button_ONOFF}
                 position={[-0.158, 0.071, 0.134]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1125.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[-0.151, 0.071, 0.119]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1127.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[-0.145, 0.071, 0.107]}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1129.geometry}
                 material={materials.printer_Buttons_Black}
                 position={[-0.139, 0.071, 0.096]}
@@ -4628,14 +3228,10 @@ export function Office(props) {
             </group>
             <group position={[-0.093, 0.01, -0.128]}>
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1131.geometry}
                 material={materials.floor}
               />
               <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.Object_1132.geometry}
                 material={materials.Paper}
               />
@@ -4644,22 +3240,16 @@ export function Office(props) {
         </group>
         <group position={[-0.458, 0, 1.203]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1134.geometry}
             material={materials.wood_4}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1136.geometry}
             material={materials.Metal}
             position={[-0.014, 0.282, -0.592]}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1138.geometry}
           material={materials.wood_4}
           position={[0, 0.309, 0]}
@@ -4667,27 +3257,19 @@ export function Office(props) {
       </group>
       <group position={[-3.638, -0.018, 8.559]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1140.geometry}
           material={materials["wood.005"]}
         />
         <group position={[0.208, 0.81, 0.187]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1162.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1163.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1165.geometry}
             material={materials.Monitor_01}
             position={[-0.002, 0.008, -0.025]}
@@ -4695,261 +3277,185 @@ export function Office(props) {
         </group>
         <group position={[0.547, 0.797, 0.189]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1169.geometry}
             material={materials.Black_plastic}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1170.geometry}
             material={materials.printer_Buttons_Black}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1171.geometry}
             material={materials.Monitor_01}
           />
         </group>
         <group position={[-0.122, 0.804, 0.253]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1173.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1174.geometry}
             material={materials.Black_plastic}
           />
         </group>
         <group position={[-0.382, 1.054, 0.128]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1192.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1193.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1194.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1195.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[0.154, 1.054, -0.003]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1197.geometry}
             material={materials.Monitor_01}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1198.geometry}
             material={materials.Monitor_01_Decals}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1199.geometry}
             material={materials.Monitor_screen}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1200.geometry}
             material={materials["Monitor.002"]}
           />
         </group>
         <group position={[-0.629, 0.856, 0.402]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1202.geometry}
             material={materials.printer_White}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1203.geometry}
             material={materials.Coffee}
           />
         </group>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1142.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.338]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1144.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1146.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1148.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1150.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1152.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1154.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1156.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1158.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1160.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1167.geometry}
           material={materials.Paper}
           position={[-0.894, 0.839, -0.204]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1176.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1178.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1180.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1182.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1184.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1186.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1188.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1190.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1205.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.919, 0.864, -0.338]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1207.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.688, 0.864, -0.351]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1209.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.918, 0.826, -0.339]}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1211.geometry}
           material={materials.Monitor_01_Decals}
           position={[-0.687, 0.826, -0.351]}
@@ -4957,188 +3463,131 @@ export function Office(props) {
       </group>
       <group position={[-3.185, 0, 7.354]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1213.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1214.geometry}
           material={materials["wood.004"]}
         />
       </group>
       <group position={[-3.989, 0, 7.354]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1216.geometry}
           material={materials.Monitor_01_Decals}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1217.geometry}
           material={materials["wood.004"]}
         />
       </group>
       <group position={[-5.381, 1.677, 8.026]}>
+        <mesh geometry={nodes.Object_1219.geometry} material={materials.wood} />
         <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_1219.geometry}
-          material={materials.wood}
-        />
-        <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1220.geometry}
           material={materials.Poster_office_3}
         />
       </group>
       <group position={[-5.381, 1.259, 8.006]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1222.geometry}
           material={materials.Black_plastic}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1223.geometry}
           material={materials.Poster_cert}
         />
       </group>
       <group position={[-5.381, 1.259, 8.495]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1225.geometry}
           material={materials.Black_plastic}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1226.geometry}
           material={materials["Poster_cert.001"]}
         />
       </group>
       <group position={[-5.381, 1.259, 7.545]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1228.geometry}
           material={materials.Black_plastic}
         />
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1229.geometry}
           material={materials["Poster_cert.002"]}
         />
       </group>
       <group position={[-4.947, -0.015, 7.001]}>
         <mesh
-          castShadow
-          receiveShadow
           geometry={nodes.Object_1232.geometry}
           material={materials.wood_4}
         />
         <group position={[-0.358, 0.901, 0.019]}>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1234.geometry}
             material={materials["wood.002"]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1235.geometry}
             material={materials.wood}
           />
           <group position={[2.153, 1.02, -0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1237.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1238.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[1.253, 1.02, -0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1240.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1241.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[0.353, 1.02, -0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1243.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1244.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[1.251, 0.006, -0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1246.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1247.geometry}
               material={materials.Glass}
             />
           </group>
           <group position={[2.152, 0.006, -0.028]}>
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1249.geometry}
               material={materials.Black_plastic}
             />
             <mesh
-              castShadow
-              receiveShadow
               geometry={nodes.Object_1250.geometry}
               material={materials.Glass}
             />
           </group>
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1252.geometry}
             material={materials.Handle_material}
             position={[0.656, 0, -0.007]}
           />
           <mesh
-            castShadow
-            receiveShadow
             geometry={nodes.Object_1254.geometry}
             material={materials.Handle_material}
             position={[0.656, 0, -0.013]}
@@ -5146,113 +3595,81 @@ export function Office(props) {
         </group>
       </group>
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_8.geometry}
         material={materials["floor.001"]}
         position={[-10.079, -0.014, -0.121]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_779.geometry}
         material={materials.Monitor_01}
         position={[-6.866, 0.729, 3.044]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_784.geometry}
         material={materials.Black_plastic}
         position={[-3.681, 0.113, 1.786]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_943.geometry}
         material={materials.Black_plastic}
         position={[-9.792, 0.113, 3.596]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_945.geometry}
         material={materials.Black_plastic}
         position={[-9.792, 0.113, 1.139]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1031.geometry}
         material={materials.wood_4}
         position={[-8.807, 0.233, 8.945]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1033.geometry}
         material={materials.wood_4}
         position={[-8.807, 0.233, 8.157]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1035.geometry}
         material={materials.wood_4}
         position={[-7.774, 0.233, 8.945]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1037.geometry}
         material={materials.wood_4}
         position={[-7.774, 0.233, 8.157]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1039.geometry}
         material={materials.wood_4}
         position={[-6.921, 0.233, 8.945]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1041.geometry}
         material={materials.wood_4}
         position={[-6.921, 0.233, 8.157]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1043.geometry}
         material={materials.Material_27}
         position={[-9.996, 1.853, 8.389]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1045.geometry}
         material={materials.Projector}
         position={[-8.63, 0.561, 8.524]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1047.geometry}
         material={materials["Projector.001"]}
         position={[-8.883, 0.562, 8.757]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1055.geometry}
         material={materials.Black_plastic}
         position={[-9.792, 0.113, 7.266]}
       />
       <mesh
-        castShadow
-        receiveShadow
         geometry={nodes.Object_1071.geometry}
         material={materials.Office_Chair}
         position={[-3.822, -0.015, 9.151]}

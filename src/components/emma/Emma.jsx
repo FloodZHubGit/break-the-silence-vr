@@ -6,14 +6,16 @@ import { useFrame } from "@react-three/fiber";
 
 const Emma = () => {
   const emma = useRef();
-  const johnQuestActive = store((state) => state.johnQuestActive);
   const emmaTextShowing = store((state) => state.emmaTextShowing);
   const emmaQuestActive = store((state) => state.emmaQuestActive);
+  const emmaQuest2Active = store((state) => state.emmaQuest2Active);
+  const emmaText2Showing = store((state) => state.emmaText2Showing);
 
   const handleClickEmma = () => {
-    if (emmaTextShowing) return;
-    if (!emmaQuestActive) return;
-    store.setState({ emmaTextShowing: true });
+    if (emmaQuestActive && !emmaTextShowing)
+      store.setState({ emmaTextShowing: true });
+    if (emmaQuest2Active && !emmaText2Showing)
+      store.setState({ emmaText2Showing: true });
   };
 
   return (
@@ -23,7 +25,10 @@ const Emma = () => {
       rotation={[0, Math.PI, 0]}
       onClick={handleClickEmma}
       onPointerOver={() => {
-        if (!emmaTextShowing && emmaQuestActive)
+        if (
+          (!emmaTextShowing && emmaQuestActive) ||
+          (!emmaText2Showing && emmaQuest2Active)
+        )
           document.body.style.cursor = "pointer";
       }}
       onPointerOut={() => {
@@ -31,7 +36,7 @@ const Emma = () => {
       }}
     >
       <AnimatedWoman scale={0.75} />
-      {!emmaTextShowing && emmaQuestActive && !johnQuestActive && (
+      {!emmaTextShowing && emmaQuestActive && (
         <Html wrapperClass="bulle" center position={[0, 2, 0]} occlude>
           Emma veut vous parler
         </Html>

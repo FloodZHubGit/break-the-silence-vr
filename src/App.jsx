@@ -4,7 +4,8 @@ import { Loader } from "@react-three/drei";
 import ConversationJohn from "./components/john/ConversationJohn";
 import ConversationEmma from "./components/emma/ConversationEmma";
 import Interface from "./components/Interface";
-import PhoneInterface from "./components/phone/Phoneinterface";
+import ConversationEmma2 from "./components/emma/ConversationEmma2";
+import PhoneInterface from "./components/phone/PhoneInterface";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <PhoneInterface />
       <ConversationJohn />
       <ConversationEmma />
+      <ConversationEmma2 />
     </>
   );
 }

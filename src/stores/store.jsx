@@ -18,8 +18,12 @@ export default create(
       emmaQuestDone: false,
 
       phoneQuestActive: false,
+      phoneMenuShowing: false,
       phoneQuestDone: false,
-      phoneMenuShowing: false
+
+      emmaQuest2Active: false,
+      emmaText2Showing: false,
+      emmaQuest2Done: false,
     };
   })
 );

@@ -2,51 +2,41 @@ import { useState } from "react";
 import "../../index.css";
 import store from "../../stores/store";
 
-export default function ConversationEmma() {
-  const emmaTextShowing = store((state) => state.emmaTextShowing);
+export default function ConversationEmma2() {
+  const emmaText2Showing = store((state) => state.emmaText2Showing);
+  const emmaQuest2Active = store((state) => state.emmaQuest2Active);
+  const emmaQuest2Done = store((state) => state.emmaQuest2Done);
+
   const [step, setStep] = useState(0);
 
   const steps = [
     {
       speaker: "Moi",
-      message: "Salut Emma, comment ça se passe ton travail ?",
+      message: "Voici ton téléphone Emma. Je l'ai trouvé à l'accueil.",
     },
     {
       speaker: "Emma",
       message:
-        "Salut, il y a eu un incident récemment je ne sais pas vraiment si c’est du harcèlement ou non. Je ne sais pas quoi faire.",
+        "Super tu as retrouvé mon téléphone merci beaucoup. Mais je ne sais pas à qui parler de ces messages.",
       options: [
         {
-          text: "Je suis désolé de t’entendre dire ça. Veux-tu m’en parler je pourrais peut-être t’aider ?",
+          text: "Tu devrais en parler à Sylvie, ton amie de bureau.",
+          correct: false,
+        },
+        {
+          text: "Tu devrais les signaler au service des ressources humaines ou à un supérieur hiérarchique.",
           correct: true,
         },
         {
-          text: "Je voulais te demander si tu n’avais pas trop de travail ?",
+          text: "Tu devrais en parler à Gérard Depardieu, un grand défenseur des droits des femmes.",
           correct: false,
-        },
-        { text: "Oula ! Je ne peux pas t’aider pour cela !", correct: false },
-      ],
-    },
-    {
-      speaker: "Emma",
-      message:
-        "Gabriel m'a envoyé des messages à caractère sexuel explicite sans mon consentement.",
-      options: [
-        {
-          text: "Mais Gabriel c’est un grand déconneur ce n’est pas grave !",
-          correct: false,
-        },
-        { text: "Si c’est par message ça ne me concerne pas.", correct: false },
-        {
-          text: "C'est inacceptable. As-tu conservé des preuves de ces messages ?",
-          correct: true,
         },
       ],
     },
     {
       speaker: "Emma",
       message:
-        "Oui, j'ai conservé les messages. Mais je ne sais pas où est mon téléphone. Tu peux le chercher pour moi s’il te plait ? Ton équipier sait sûrement où il est.",
+        "Tu as raison, je vais en parler à mon supérieur hiérarchique, merci pour ton aide",
     },
   ];
 
@@ -76,16 +66,16 @@ export default function ConversationEmma() {
   };
 
   const closeConversation = () => {
-    store.setState({ currentQuest: "Retrouver le téléphone d'Emma" });
-    store.setState({ emmaTextShowing: false });
-    store.setState({ emmaQuestActive: false });
-    store.setState({ emmaQuestDone: true });
-    store.setState({ phoneQuestActive: true });
+    store.setState({ currentQuest: "Fin du jeu" });
+    store.setState({ personHelped: 1 });
+    store.setState({ emmaText2Showing: false });
+    store.setState({ emmaQuest2Active: false });
+    store.setState({ emmaQuest2Done: true });
   };
 
   return (
     <>
-      {emmaTextShowing && (
+      {emmaText2Showing && (
         <div className="conversation">
           <img
             src={getImage(steps[step].speaker)}
