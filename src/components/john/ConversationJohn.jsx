@@ -13,6 +13,8 @@ export default function ConversationJohn() {
   const closeConversation = () => {
     store.setState({ johnTextShowing: false });
     store.setState({ johnQuestActive: false });
+    store.setState({ emmaQuestActive: true });
+    store.setState({ currentQuest: "Parler à Emma" });
   };
 
   return (
@@ -39,11 +41,11 @@ export default function ConversationJohn() {
               <p>
                 Salut, je suis John, le boss de cette boîte. Je suis contre le
                 harcèlement sexuel, et je voudrais que tu m'aides à le
-                combattre. Je vais te donner des situations, et tu devras
-                choisir la bonne réponse. Si tu fais une erreur, je te dirai
-                pourquoi c'est une erreur, et tu pourras recommencer. Si tu ne
-                fais pas d'erreur, tu pourras passer à la situation suivante.
-                Bonne chance !
+                combattre. Avec l'aide de ton équipier, tu vas devoir aider les
+                employés de la boîte qui font face à des situations de
+                harcèlement sexuel. Tu vas devoir les aider à trouver les
+                solutions les plus adaptées à leur situation. Si tu as faux, tu
+                devras recommencer. Tu es prêt ?
               </p>
             )}
           </div>

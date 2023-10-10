@@ -17,8 +17,8 @@ const John = () => {
   return (
     <group
       ref={john}
-      position={[2.5, -0.9, 1]}
-      rotation={[0, Math.PI * 1.5, 0]}
+      position={[2.5, -0.9, 4.5]}
+      rotation={[0, Math.PI, 0]}
       onClick={handleClickJohn}
       onPointerOver={() => {
         if (!johnTextShowing && johnQuestActive)
@@ -30,7 +30,7 @@ const John = () => {
     >
       <BusinessMan scale={0.75} />
       {!johnTextShowing && johnQuestActive && (
-        <Html wrapperClass="bulle" center position={[0, 2, 0]}>
+        <Html wrapperClass="bulle" center position={[0, 2, 0]} occlude>
           John veut vous parler
         </Html>
       )}
