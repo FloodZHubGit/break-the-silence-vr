@@ -168,3 +168,9 @@ body {
   font-weight: bold;
   text-align: center; /* Center the text */
 }
+
+.phone-interface{
+  position: absolute;
+  top:0;
+  margin-left: 50%;
+}

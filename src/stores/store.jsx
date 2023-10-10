@@ -16,6 +16,10 @@ export default create(
       emmaQuestActive: false,
       emmaTextShowing: false,
       emmaQuestDone: false,
+
+      phoneQuestActive: false,
+      phoneQuestDone: false,
+      phoneMenuShowing: false
     };
   })
 );

@@ -4,6 +4,7 @@ import { Loader } from "@react-three/drei";
 import ConversationJohn from "./components/john/ConversationJohn";
 import ConversationEmma from "./components/emma/ConversationEmma";
 import Interface from "./components/Interface";
+import PhoneInterface from "./components/phone/Phoneinterface";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </Canvas>
       <Loader />
       <Interface />
+      <PhoneInterface />
       <ConversationJohn />
       <ConversationEmma />
     </>

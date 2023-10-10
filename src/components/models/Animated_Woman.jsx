@@ -17,9 +17,6 @@ export function AnimatedWoman(props) {
 
   useEffect(() => {
     actions["CharacterArmature|Idle_Neutral"].reset().fadeIn(0.5).play();
-    if (props.emmaTextShowing) {
-      actions["CharacterArmature|Interact"].reset().fadeIn(0.5).play();
-    }
   }, [actions]);
 
   return (

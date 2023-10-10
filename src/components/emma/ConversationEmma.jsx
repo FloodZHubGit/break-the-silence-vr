@@ -80,6 +80,7 @@ export default function ConversationEmma() {
     store.setState({ emmaTextShowing: false });
     store.setState({ emmaQuestActive: false });
     store.setState({ emmaQuestDone: true });
+    store.setState({ phoneQuestActive: true});
   };
 
   return (

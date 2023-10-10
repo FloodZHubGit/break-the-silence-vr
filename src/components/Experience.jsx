@@ -5,6 +5,8 @@ import John from "./john/John";
 import Emma from "./emma/Emma";
 import "../index.css";
 import { useRef } from "react";
+import { PhoneModel } from "./models/PhoneModel";
+import Phone from "./phone/phone";
 
 export const Experience = () => {
   const office = useRef();
@@ -19,6 +21,7 @@ export const Experience = () => {
       </Stage>
       <John />
       <Emma />
+      <Phone />
       <Html
         transform
         wrapperClass="htmlScreen"
