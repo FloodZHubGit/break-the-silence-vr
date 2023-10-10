@@ -19,7 +19,7 @@ export default function Phone() {
       {!emmaQuest2Done && (
         <group
           ref={phone}
-          position={[4.5, -0.035, 0.7]}
+          position={[4.5, 0.85, 0.7]}
           rotation={[-Math.PI / 2, 0, Math.PI / 2]}
           scale={0.5}
           onPointerOver={() => {

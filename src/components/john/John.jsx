@@ -17,7 +17,7 @@ const John = () => {
   return (
     <group
       ref={john}
-      position={[2.5, -0.9, 4.5]}
+      position={[2.5, 0, 4.5]}
       rotation={[0, Math.PI, 0]}
       onClick={handleClickJohn}
       onPointerOver={() => {

@@ -14,7 +14,7 @@ export const Experience = () => {
     <>
       <OrbitControls />
       <ambientLight intensity={1} />
-      <group ref={office} position={[5, -0.9, -5]}>
+      <group ref={office} position={[5, 0, -5]}>
         <Office />
       </group>
       <John />
@@ -24,7 +24,7 @@ export const Experience = () => {
         transform
         wrapperClass="htmlScreen"
         distanceFactor={1.17}
-        position={[-4.9, 0.3, 3.45]}
+        position={[-4.9, 1.2, 3.45]}
         scale={1.2}
         rotation={[0, Math.PI / 2, 0]}
         occlude

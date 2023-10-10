@@ -21,7 +21,7 @@ const Emma = () => {
   return (
     <group
       ref={emma}
-      position={[4.5, -0.9, 4.5]}
+      position={[4.5, 0.0, 4.5]}
       rotation={[0, Math.PI, 0]}
       onClick={handleClickEmma}
       onPointerOver={() => {
