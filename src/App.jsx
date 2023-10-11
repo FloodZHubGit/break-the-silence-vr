@@ -21,9 +21,8 @@ function App() {
   return (
     <>
       <VRButton />
-      <Canvas shadows camera={{ position: [10, 5, 10], fov: 30 }}>
+      <Canvas>
         <XR>
-          <TeleportationPlane rightHand={true} leftHand={true} />
           <color attach="background" args={["#f7dcad"]} />
           <Experience />
         </XR>
