@@ -13,6 +13,7 @@ import {
   Controllers,
   Hands,
   TeleportationPlane,
+  useXR,
 } from "@react-three/xr";
 import { useRef } from "react";
 
@@ -22,13 +23,9 @@ function App() {
       <VRButton />
       <Canvas shadows camera={{ position: [10, 5, 10], fov: 30 }}>
         <XR>
+          <TeleportationPlane rightHand={true} leftHand={true} />
           <color attach="background" args={["#f7dcad"]} />
           <Experience />
-          <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
-            <planeBufferGeometry args={[10, 10]} />
-            <meshStandardMaterial color="white" />
-            <TeleportationPlane rightHand={true} leftHand={true} />
-          </mesh>
           <Controllers />
           <Hands />
         </XR>
