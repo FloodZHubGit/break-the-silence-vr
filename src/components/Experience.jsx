@@ -4,52 +4,46 @@ import John from "./john/John";
 import Emma from "./emma/Emma";
 import "../index.css";
 import Phone from "./phone/Phone";
-import {
-  RayGrab,
-  TeleportationPlane,
-  useXR,
-  Interactive,
-  Controllers,
-  useTeleportation,
-} from "@react-three/xr";
+import { RayGrab, useXR, Controllers, useController } from "@react-three/xr";
 import Interface from "./Interface";
-import { Plane, Sky } from "@react-three/drei";
-import { useFrame, useThree } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 
 export const Experience = () => {
-  const xr = useThree((it) => it.gl.xr);
-  const teleport = useTeleportation();
-  const isTeleported = useRef(false);
+  const leftController = useController("left");
 
+  // Get the player object from the XR context
+  const { player } = useXR();
+
+  // Define a speed factor
+  const speed = 0.1;
+
+  // Update the player's position on every frame
   useFrame(() => {
-    if (!isTeleported.current && xr.getReferenceSpace()) {
-      isTeleported.current = true;
-      teleport(new Vector3(0, 0, 0));
+    console.log(leftController);
+    // Check if the left controller is connected and has axes
+    if (leftController && leftController.axes) {
+      // Get the horizontal and vertical values of the joystick
+      const [x, y] = leftController.axes;
+
+      // Move the player along the x and z axes according to the joystick values
+      player.position.x += x * speed;
+      player.position.z += y * speed;
     }
   });
   return (
     <>
-      {/* <TeleportationPlane leftHand rightHand />
       <Controllers />
-      <ambientLight intensity={1} /> */}
-      {/* <group position={[5, -0.1, -5]}>
+      <ambientLight intensity={1} />
+      <group position={[5, -0, -5]}>
         <Office />
-      </group> */}
-      {/* <RayGrab>
+      </group>
+      <RayGrab>
         <John />
       </RayGrab>
       <Emma />
-      <Phone /> */}
-      {/* <Interface /> */}
+      <Phone />
 
-      <TeleportationPlane leftHand rightHand />
-      <Sky sunPosition={[0, 1, 0]} />
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <Controllers />
-      <Plane args={[10, 10, 10, 10]} rotation-x={-Math.PI / 2} position-y={-1}>
-        <meshBasicMaterial wireframe color="red" />
-      </Plane>
+      <Interface />
     </>
   );
 };
