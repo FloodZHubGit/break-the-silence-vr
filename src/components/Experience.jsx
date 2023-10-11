@@ -14,6 +14,7 @@ export const Experience = () => {
 
   return (
     <>
+      <TeleportationPlane rightHand={true} leftHand={true} />
       <OrbitControls />
       <ambientLight intensity={1} />
       <group ref={office} position={[5, 0, -5]}>

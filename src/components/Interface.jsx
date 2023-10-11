@@ -30,12 +30,6 @@ export default function Interface() {
             font="./helvetiker_regular.typeface.json"
             size={0.1}
             height={0.2}
-            curveSegments={12}
-            bevelEnabled
-            bevelThickness={0.02}
-            bevelSize={0.02}
-            bevelOffset={0}
-            bevelSegments={5}
             position={[0, 4, 0]}
           >
             Quete en cours : {currentQuest}
@@ -46,12 +40,6 @@ export default function Interface() {
             font="./helvetiker_regular.typeface.json"
             size={0.1}
             height={0.2}
-            curveSegments={12}
-            bevelEnabled
-            bevelThickness={0.02}
-            bevelSize={0.02}
-            bevelOffset={0}
-            bevelSegments={5}
             position={[0, 3.5, 0]}
           >
             Personnes aidees : {personHelped} / {totalPersonToHelp}
