@@ -6,7 +6,14 @@ import ConversationEmma from "./components/emma/ConversationEmma";
 import Interface from "./components/Interface";
 import ConversationEmma2 from "./components/emma/ConversationEmma2";
 import PhoneInterface from "./components/phone/PhoneInterface";
-import { VRButton, ARButton, XR, Controllers, Hands } from "@react-three/xr";
+import {
+  VRButton,
+  ARButton,
+  XR,
+  Controllers,
+  Hands,
+  TeleportationPlane,
+} from "@react-three/xr";
 
 function App() {
   return (
@@ -15,6 +22,7 @@ function App() {
       <Canvas shadows camera={{ position: [10, 5, 10], fov: 30 }}>
         <XR>
           <color attach="background" args={["#f7dcad"]} />
+          <TeleportationPlane rightHand={true} leftHand={true} visible={true} />
           <Experience />
           <Controllers />
           <Hands />
