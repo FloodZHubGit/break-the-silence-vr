@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { Html, OrbitControls, Stage } from "@react-three/drei";
 import { Office } from "./models/Office";
 import John from "./john/John";
 import Emma from "./emma/Emma";
@@ -15,14 +14,12 @@ import {
 import Interface from "./Interface";
 
 export const Experience = () => {
-  const office = useRef();
-
   return (
     <>
       <TeleportationPlane leftHand rightHand />
       <Controllers />
       <ambientLight intensity={1} />
-      <group ref={office} position={[5, 0, -5]}>
+      <group position={[5, -0.1, -5]}>
         <Office />
       </group>
       <RayGrab>
