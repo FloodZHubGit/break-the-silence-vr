@@ -24,17 +24,6 @@ export const Experience = () => {
       </RayGrab>
       <Emma />
       <Phone />
-      <Html
-        transform
-        wrapperClass="htmlScreen"
-        distanceFactor={1.17}
-        position={[-4.9, 1.2, 3.45]}
-        scale={1.2}
-        rotation={[0, Math.PI / 2, 0]}
-        occlude
-      >
-        <video src="FirstAidFail-TheOfficeUS.mp4" autoPlay muted loop />
-      </Html>
 
       <Interface />
     </>
