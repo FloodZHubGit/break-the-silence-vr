@@ -10,6 +10,7 @@ import {
   TeleportationPlane,
   useXR,
   Interactive,
+  Controllers,
 } from "@react-three/xr";
 import Interface from "./Interface";
 
@@ -18,7 +19,8 @@ export const Experience = () => {
 
   return (
     <>
-      <OrbitControls />
+      <TeleportationPlane leftHand rightHand />
+      <Controllers />
       <ambientLight intensity={1} />
       <group ref={office} position={[5, 0, -5]}>
         <Office />
@@ -28,10 +30,6 @@ export const Experience = () => {
       </RayGrab>
       <Emma />
       <Phone />
-
-      <Interactive>
-        <TeleportationPlane leftHand={true} rightHand={true} />
-      </Interactive>
 
       <Interface />
     </>

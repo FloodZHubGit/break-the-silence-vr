@@ -26,8 +26,6 @@ function App() {
           <TeleportationPlane rightHand={true} leftHand={true} />
           <color attach="background" args={["#f7dcad"]} />
           <Experience />
-          <Controllers />
-          <Hands />
         </XR>
       </Canvas>
       <Loader />
