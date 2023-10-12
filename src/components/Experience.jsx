@@ -9,27 +9,35 @@ import Interface from "./Interface";
 import { useFrame } from "@react-three/fiber";
 
 export const Experience = () => {
+  const {
+    // An array of connected `XRController`
+    controllers,
+    // Whether the XR device is presenting in an XR session
+    isPresenting,
+    // Whether hand tracking inputs are active
+    isHandTracking,
+    // A THREE.Group representing the XR viewer or player
+    player,
+    // The active `XRSession`
+    session,
+    // `XRSession` foveation. This can be configured as `foveation` on <XR>. Default is `0`
+    foveation,
+    // `XRSession` reference-space type. This can be configured as `referenceSpace` on <XR>. Default is `local-floor`
+    referenceSpace,
+  } = useXR();
+
   const leftController = useController("left");
 
-  // Get the player object from the XR context
-  const { player } = useXR();
-
-  // Define a speed factor
-  const speed = 0.1;
-
-  // Update the player's position on every frame
   useFrame(() => {
-    console.log(leftController);
-    // Check if the left controller is connected and has axes
-    if (leftController && leftController.axes) {
-      // Get the horizontal and vertical values of the joystick
-      const [x, y] = leftController.axes;
+    if (leftController) {
+      const { axes } = leftController.inputSource.gamepad;
+      const [x, y] = axes;
 
-      // Move the player along the x and z axes according to the joystick values
-      player.position.x += x * speed;
-      player.position.z += y * speed;
+      player.position.z -= y * 0.1;
+      player.position.x -= x * 0.1;
     }
   });
+
   return (
     <>
       <Controllers />
