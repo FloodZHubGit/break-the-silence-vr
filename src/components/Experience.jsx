@@ -16,6 +16,7 @@ import { useFrame } from "@react-three/fiber";
 import ConversationJohn from "./john/ConversationJohn";
 
 export const Experience = () => {
+  const johnTextShowing = store((state) => state.johnTextShowing);
   return (
     <>
       <Controllers />
@@ -30,7 +31,7 @@ export const Experience = () => {
       >
         <John />
       </Interactive>
-      <ConversationJohn />
+      {johnTextShowing && <ConversationJohn />}
       <Emma />
       <Phone />
 

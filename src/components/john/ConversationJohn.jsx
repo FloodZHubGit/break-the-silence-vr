@@ -53,7 +53,7 @@ export default function ConversationJohn() {
           </Center>
 
           <Interactive onSelect={closeConversation}>
-            <Center position={[1, 2, 4.5]} rotation={[0, Math.PI, 0]}>
+            <Center position={[1, 1, 4.5]} rotation={[0, Math.PI, 0]}>
               <Text scale={0.08} height={0.2}>
                 Fermer
               </Text>
@@ -71,7 +71,7 @@ export default function ConversationJohn() {
       {!accepted && (
         <>
           <Interactive onSelect={handleAccept}>
-            <Center position={[1, 2, 4.5]} rotation={[0, Math.PI, 0]}>
+            <Center position={[1, 1, 4.5]} rotation={[0, Math.PI, 0]}>
               <Text scale={0.08} height={0.2}>
                 Accepter
               </Text>

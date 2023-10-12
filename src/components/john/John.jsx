@@ -15,26 +15,16 @@ const John = () => {
   };
 
   return (
-    <group
-      ref={john}
-      position={[2.5, 0, 4.5]}
-      rotation={[0, Math.PI, 0]}
-      onClick={handleClickJohn}
-      onPointerOver={() => {
-        if (!johnTextShowing && johnQuestActive)
-          document.body.style.cursor = "pointer";
-      }}
-      onPointerOut={() => {
-        document.body.style.cursor = "default";
-      }}
-    >
-      <BusinessMan scale={0.75} />
-      {!johnTextShowing && johnQuestActive && (
-        <Html wrapperClass="bulle" center position={[0, 2, 0]} occlude>
-          John veut vous parler
-        </Html>
-      )}
-    </group>
+    <Interactive onSelect={handleClickJohn}>
+      <group ref={john} position={[2.5, 0, 4.5]} rotation={[0, Math.PI, 0]}>
+        <BusinessMan scale={0.75} />
+        {!johnTextShowing && johnQuestActive && (
+          <Html wrapperClass="bulle" center position={[0, 2, 0]} occlude>
+            John veut vous parler
+          </Html>
+        )}
+      </group>
+    </Interactive>
   );
 };
 
