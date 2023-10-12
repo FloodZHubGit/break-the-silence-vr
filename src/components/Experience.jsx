@@ -4,6 +4,7 @@ import John from "./john/John";
 import Emma from "./emma/Emma";
 import "../index.css";
 import Phone from "./phone/Phone";
+import store from "../stores/store";
 import {
   RayGrab,
   useXR,

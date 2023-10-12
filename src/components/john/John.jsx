@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { BusinessMan } from "../models/Business_Man";
 import store from "../../stores/store";
 import { Html } from "@react-three/drei";
+import { Interactive } from "@react-three/xr";
 
 const John = () => {
   const john = useRef();
