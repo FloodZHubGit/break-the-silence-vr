@@ -23,27 +23,19 @@ export default function Interface() {
 
   return (
     <>
+      <group position={[0, 1.5, 0]}>
+        <Center>
+          <Text scale={0.08} height={0.2}>
+            Quete en cours : {currentQuest}
+          </Text>
+        </Center>
+      </group>
+
       <group position={[0, 1, 0]}>
         <Center>
-          <Text3D
-            material={material}
-            font="./helvetiker_regular.typeface.json"
-            size={0.1}
-            height={0.2}
-            position={[0, 4, 0]}
-          >
-            Quete en cours : {currentQuest}
-          </Text3D>
-
-          <Text3D
-            material={material}
-            font="./helvetiker_regular.typeface.json"
-            size={0.1}
-            height={0.2}
-            position={[0, 3.5, 0]}
-          >
+          <Text scale={0.08} height={0.2}>
             Personnes aidees : {personHelped} / {totalPersonToHelp}
-          </Text3D>
+          </Text>
         </Center>
       </group>
     </>
